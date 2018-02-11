@@ -1,0 +1,160 @@
+/******* Globale Einstellung ******/
+
+html,body {
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+            margin: 0px; 
+            font-family: "Helvetica", Arial, sans-serif;
+	        font-weight: bold;
+}
+ 
+     
+h1 {
+	font-size: 5vw;
+    /*    font-size: 28px;*/
+    color: #888888;
+}
+
+h2 {
+    font-size: 18px;
+	line-height: 36px;
+    color: #888888;
+}
+
+h3 {
+	font-size: 1em;
+    /*    font-size: 14px;*/
+    letter-spacing: 3;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+    
+h4 {
+    font-size: 3vw;
+/*    font-size: 10px;*/
+    letter-spacing: 3;
+    line-height: normal;
+    color: #666666;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 11px;
+    letter-spacing: 3;
+    line-height: 13;
+    color: #333333;
+}
+
+/******* END OF GLOBAL******/
+
+
+nav { height: 5vh;
+    background-color: #FFFFFF;
+    padding: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headernav {
+    align-items: center;
+    height: 10vh;
+}
+
+.logo {
+    height: 5vh;
+}
+
+.icon {   
+    height: 5vh;
+}
+
+.searchicon{
+    height: 3vh;
+}
+
+.mininav {
+    height: 5vh;
+    align-items: center;
+}
+
+.stundenplan {
+    
+    height: 80vh;
+    
+}
+
+.start {
+    position: relative;
+    height: 55vw;
+    width: 100%;
+    background: url(../assets/dab_students.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+    
+.welcome {
+    position: relative;
+    top: 10%;
+    text-align: center;
+
+}
+
+.login {
+    position: absolute;
+    
+    top: 80%;
+    left: 5%;
+    width: 90%;
+    min-height: 5vh;
+    text-align: center;
+    background-color: #ED0973;
+}
+
+.login-gross {
+    position: absolute;
+    align-items: center;
+    top: 80%;
+    width: 100%;
+    background-color: #ED0973;
+}
+
+.anmelden {
+    margin-left: 27vw;
+    width: 40%;
+}
+
+.typename {
+    height: 5vh;
+    margin: 1vw;
+    background-color: #FFFFFF;
+}
+
+.padding {
+    padding: 5vw;
+}
+
+.events {
+    height: 10vh;
+    padding: 2vw;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.gallery img {
+   width: 46vw;
+margin-bottom: 2vh;
+    
+}
+
+.stundenplan {
+/*    height: 80%*/
+}

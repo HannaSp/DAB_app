@@ -1,0 +1,9 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "DAB-APP",
+  "short_name": "DAB-APP",
+  "version": "com.cPager.hanna",
+  "icons": [],
+  "start_url": "index.html"
+}
